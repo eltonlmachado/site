@@ -6,27 +6,27 @@ body {
 }
 .display-1 {
   font-family: 'Inter-Black';
-  font-size: 6.4rem;
+  font-size: 6rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 8rem;
+  font-size: 7.5rem;
 }
 .display-2 {
   font-family: 'Inter-Black';
-  font-size: 4rem;
+  font-size: 3.4rem;
   line-height: 1.1;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 5rem;
+  font-size: 4.25rem;
 }
 .display-4 {
   font-family: 'Inter-Medium';
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 .display-5 {
   font-family: 'Inter-Regular';
@@ -38,11 +38,11 @@ body {
 }
 .display-7 {
   font-family: 'Inter-Regular';
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -51,24 +51,24 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 5.12rem;
+    font-size: 4.8rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 4.48rem;
-    font-size: calc( 2.89rem + (6.4 - 2.89) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.89rem + (6.4 - 2.89) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 4.2rem;
+    font-size: calc( 2.75rem + (6 - 2.75) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.75rem + (6 - 2.75) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.72rem;
+    font-size: calc( 1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.88rem;
-    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.28rem;
@@ -76,9 +76,9 @@ body {
     line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.88rem;
+    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -587,12 +587,12 @@ a:hover {
 /* Scroll to top button*/
 .form-control {
   font-family: 'Inter-Medium';
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -601,12 +601,12 @@ a:hover {
 }
 .form-control:-webkit-input-placeholder {
   font-family: 'Inter-Medium';
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 blockquote {
   border-color: #e8e6e3;
@@ -1470,8 +1470,36 @@ a {
 .cid-u0gDBRIFds .card-box {
   color: #f6f6f6;
 }
+.cid-u0SgqyzS8V {
+  padding-top: 5rem;
+  padding-bottom: 0rem;
+  background-color: #f6f6f6;
+}
+.cid-u0SgqyzS8V .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u0SgqyzS8V .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-u0Sm0kTEtE {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #f6f6f6;
+}
+.cid-u0Sm0kTEtE .line {
+  background-color: #287094;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
 .cid-u0pecu4Ex2 {
-  padding-top: 6rem;
+  padding-top: 4rem;
   padding-bottom: 3rem;
   background-color: #f6f6f6;
 }
@@ -1955,6 +1983,8 @@ a {
   width: 100%;
 }
 .cid-tWiGI35IiN {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-color: #121717;
 }
 .cid-tWiGI35IiN .mbr-fallback-image.disabled {
