@@ -1090,15 +1090,43 @@ a {
   align-items: center;
 }
 .cid-tVPXN0BuY5 .mbr-section-title {
-  color: #fc574a;
+  color: #f2b705;
   text-align: left;
 }
 .cid-tVPXN0BuY5 .mbr-text {
   color: #f6f6f6;
   text-align: left;
 }
+.cid-umNnu6qCoQ {
+  padding-top: 4rem;
+  padding-bottom: 0rem;
+  background-color: #e8e6e3;
+}
+.cid-umNnu6qCoQ .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-umNnu6qCoQ .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-umNnu6qCoQ .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-umNnu6qCoQ .row {
+  flex-direction: row-reverse;
+}
+.cid-umNnu6qCoQ img {
+  width: 100%;
+}
 .cid-tWigViOHao {
-  padding-top: 5rem;
+  padding-top: 4rem;
   padding-bottom: 6rem;
   background-color: #e8e6e3;
 }
@@ -1283,15 +1311,15 @@ a {
   text-align: center;
   color: #232323;
 }
-.cid-tWhV41Q6as {
+.cid-umLxPa5EVY {
   padding-top: 5rem;
   padding-bottom: 0rem;
   background-color: #e8e6e3;
 }
-.cid-tWhV41Q6as .mbr-fallback-image.disabled {
+.cid-umLxPa5EVY .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-tWhV41Q6as .mbr-fallback-image {
+.cid-umLxPa5EVY .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1300,20 +1328,126 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-tWhV41Q6as .video-wrapper iframe {
+.cid-umNjHkWvn9 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #e8e6e3;
+}
+.cid-umNjHkWvn9 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-umNjHkWvn9 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
-.cid-tWhV41Q6as .mbr-section-title,
-.cid-tWhV41Q6as .mbr-description {
-  text-align: center;
+.cid-umNjHkWvn9 .content-wrapper {
+  background: #e8e6e3;
 }
-@media (min-width: 992px) {
-  .cid-tWhV41Q6as .text-wrapper {
+@media (max-width: 991px) {
+  .cid-umNjHkWvn9 .content-wrapper .image-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-umNjHkWvn9 .content-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-umNjHkWvn9 .content-wrapper {
     padding: 2rem;
   }
 }
-.cid-tWhV41Q6as .mbr-section-title {
+@media (min-width: 992px) {
+  .cid-umNjHkWvn9 .content-wrapper {
+    padding: 5rem 3rem;
+  }
+  .cid-umNjHkWvn9 .content-wrapper .text-wrapper {
+    padding-left: 2rem;
+  }
+}
+.cid-umNjHkWvn9 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-umN4OQUnoN {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #121717;
+}
+.cid-umN4OQUnoN .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-umN4OQUnoN .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-umN4OQUnoN .mbr-text,
+.cid-umN4OQUnoN .mbr-section-btn {
   color: #232323;
+}
+.cid-umN4OQUnoN .btn {
+  width: 100%;
+}
+.cid-umN4OQUnoN .mbr-section-btn {
+  margin-bottom: 1.2rem;
+}
+.cid-umN4OQUnoN H1 {
+  text-align: center;
+  color: #e8e6e3;
+}
+.cid-umMxZAOyvd {
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+  background-color: #e8e6e3;
+}
+.cid-umMxZAOyvd .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-umMxZAOyvd .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-umMxZAOyvd .row {
+  flex-direction: row-reverse;
+}
+@media (max-width: 767px) {
+  .cid-umMxZAOyvd .row {
+    flex-direction: column-reverse;
+  }
+  .cid-umMxZAOyvd .mbr-figure {
+    margin-bottom: 1.5rem;
+  }
+}
+.cid-umMxZAOyvd .row {
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .cid-umMxZAOyvd .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-umMxZAOyvd .media-content,
+.cid-umMxZAOyvd .mbr-figure {
+  align-self: center;
+}
+.cid-umMxZAOyvd .mbr-figure iframe {
+  width: 100%;
 }
 .cid-tWhUInBtan {
   padding-top: 1rem;
